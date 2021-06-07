@@ -2,7 +2,7 @@
 
 **Gerador de declaração de conteúdo para postagem nos Correios**
 
-[![Build Status](https://travis-ci.org/fontebasso/declaracao-conteudo-correios.svg?branch=main)](https://travis-ci.org/fontebasso/declaracao-conteudo-correios)
+[![Build Status](https://travis-ci.com/fontebasso/declaracao-conteudo-correios.svg?branch=main)](https://travis-ci.com/fontebasso/declaracao-conteudo-correios)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3c9b244202e9842607fe/maintainability)](https://codeclimate.com/github/fontebasso/declaracao-conteudo-correios/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/3c9b244202e9842607fe/test_coverage)](https://codeclimate.com/github/fontebasso/declaracao-conteudo-correios/test_coverage)
 [![Latest Stable Version](https://poser.pugx.org/fontebasso/declaracao-conteudo-correios/v/stable)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
