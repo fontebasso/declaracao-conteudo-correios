@@ -2,16 +2,16 @@
 
 **Gerador de declaração de conteúdo para postagem nos Correios**
 
-[![Build Status](https://travis-ci.org/click4web/declaracao-conteudo-correios.svg?branch=master)](https://travis-ci.org/click4web/declaracao-conteudo-correios)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a94d0d7710163ec16aec/maintainability)](https://codeclimate.com/github/click4web/declaracao-conteudo-correios/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a94d0d7710163ec16aec/test_coverage)](https://codeclimate.com/github/click4web/declaracao-conteudo-correios/test_coverage)
-[![Latest Stable Version](https://poser.pugx.org/click4web/declaracao-conteudo-correios/v/stable)](https://packagist.org/packages/click4web/declaracao-conteudo-correios)
-[![Latest Unstable Version](https://poser.pugx.org/click4web/declaracao-conteudo-correios/v/unstable)](https://packagist.org/packages/click4web/declaracao-conteudo-correios)
-[![License](https://poser.pugx.org/click4web/declaracao-conteudo-correios/license)](https://packagist.org/packages/click4web/declaracao-conteudo-correios)
+[![Build Status](https://travis-ci.org/fontebasso/declaracao-conteudo-correios.svg?branch=main)](https://travis-ci.org/fontebasso/declaracao-conteudo-correios)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3c9b244202e9842607fe/maintainability)](https://codeclimate.com/github/fontebasso/declaracao-conteudo-correios/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/3c9b244202e9842607fe/test_coverage)](https://codeclimate.com/github/fontebasso/declaracao-conteudo-correios/test_coverage)
+[![Latest Stable Version](https://poser.pugx.org/fontebasso/declaracao-conteudo-correios/v/stable)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
+[![Latest Unstable Version](https://poser.pugx.org/fontebasso/declaracao-conteudo-correios/v/unstable)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
+[![License](https://poser.pugx.org/fontebasso/declaracao-conteudo-correios/license)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
 
 ## Instalação
 
-`composer require click4web/declaracao-conteudo-correios`
+`composer require fontebasso/declaracao-conteudo-correios`
 
 ## Exemplo de uso
 
@@ -72,7 +72,7 @@ echo $declaracao->imprimirHtml();
 
 ## Contribuindo
 
-1. Faça o _fork_ do projeto (<https://github.com/click4web/declaracao-conteudo-correios/fork>)
+1. Faça o _fork_ do projeto (<https://github.com/fontebasso/declaracao-conteudo-correios/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
 3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
 4. _Push_ (`git push origin feature/fooBar`)
