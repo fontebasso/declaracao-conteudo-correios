@@ -16,8 +16,10 @@ class ItemBag implements ItemBagInterface
 {
     private $itens = [];
 
-    public function __construct(array $itens = [], $classItem = '\\Fontebasso\\Correios\\DeclaracaoConteudo\\Entities\\Item')
-    {
+    public function __construct(
+        array $itens = [],
+        $classItem = '\\Fontebasso\\Correios\\DeclaracaoConteudo\\Entities\\Item'
+    ) {
         foreach ($itens as $item) {
             if ($item instanceof $classItem) {
                 $this->itens[] = $item;
