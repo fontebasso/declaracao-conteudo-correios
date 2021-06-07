@@ -1,22 +1,22 @@
 <?php
-namespace Click4Web\DeclaracaoConteudo\Core;
+namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
 
-use Click4Web\DeclaracaoConteudo\Interfaces\ItemBagInterface;
-use Click4Web\DeclaracaoConteudo\Interfaces\ItemInterface;
+use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\ItemBagInterface;
+use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\ItemInterface;
 
 /**
  * Class ItemBag
  *
- * @package  Click4Web\DeclaracaoConteudo
+ * @package  Fontebasso\Correios\DeclaracaoConteudo
  * @subpackage Core
- * @author   fontebasso <sfdsilva@fontesoft.com>
+ * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License
  */
 class ItemBag implements ItemBagInterface
 {
     private $itens = [];
 
-    public function __construct(array $itens = [], $classItem = '\\Click4Web\\DeclaracaoConteudo\\Entities\\Item')
+    public function __construct(array $itens = [], $classItem = '\\Fontebasso\\Correios\\DeclaracaoConteudo\\Entities\\Item')
     {
         foreach ($itens as $item) {
             if ($item instanceof $classItem) {

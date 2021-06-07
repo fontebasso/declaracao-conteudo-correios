@@ -1,15 +1,15 @@
 <?php
-namespace Click4Web\DeclaracaoConteudo\Entities;
+namespace Fontebasso\Correios\DeclaracaoConteudo\Entities;
 
-use Click4Web\DeclaracaoConteudo\Core\Entity;
-use Click4Web\DeclaracaoConteudo\Interfaces\PessoaInterface;
+use Fontebasso\Correios\DeclaracaoConteudo\Core\Entity;
+use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\PessoaInterface;
 
 /**
  * Class Pessoa
  *
- * @package Click4Web\DeclaracaoConteudo
+ * @package Fontebasso\Correios\DeclaracaoConteudo
  * @subpackage Entities
- * @author   fontebasso <sfdsilva@fontesoft.com>
+ * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License
  */
 class Pessoa extends Entity implements PessoaInterface

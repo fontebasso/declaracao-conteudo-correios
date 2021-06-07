@@ -18,7 +18,7 @@
 Criando um remetente:
 
 ```php
-$remetente = new Click4Web\DeclaracaoConteudo\Entities\Pessoa([
+$remetente = new Fontebasso\Correios\DeclaracaoConteudo\Entities\Pessoa([
     'nome' => 'Click 4 Web - Marketing',
     'doc' => '12.398.650/0001-16',
     'endereco' => 'Rua Mandaguari, 400 - Vila Curuça',
@@ -31,7 +31,7 @@ $remetente = new Click4Web\DeclaracaoConteudo\Entities\Pessoa([
 Criando um destinatário. É o mesmo objeto de remetente apenas mudei a forma de definir os atributos:
 
 ```php
-$destinatario = new Click4Web\DeclaracaoConteudo\Entities\Pessoa();
+$destinatario = new Fontebasso\Correios\DeclaracaoConteudo\Entities\Pessoa();
 $destinatario->setNome('TagCool')
     ->setDoc('21.814.544/0001-67')
     ->setEndereco('Rua Albuquerque Lins, 128 - Jardim Paulista')
@@ -43,7 +43,7 @@ $destinatario->setNome('TagCool')
 Criando uma mochila de itens:
  
 ```php
-$itens = new \Click4Web\DeclaracaoConteudo\Core\ItemBag([
+$itens = new \Fontebasso\Correios\DeclaracaoConteudo\Core\ItemBag([
     [
         'descricao' => 'Livro - 8Ps do Marketing Digital',
         'quantidade' => 1,
@@ -60,7 +60,7 @@ $itens = new \Click4Web\DeclaracaoConteudo\Core\ItemBag([
 Exibindo a declaração de conteúdo:
 
 ```php
-$declaracao = new \Click4Web\DeclaracaoConteudo\DeclaracaoConteudo(
+$declaracao = new \Fontebasso\Correios\DeclaracaoConteudo\DeclaracaoConteudo(
     $remetente,
     $destinatario,
     $itens,

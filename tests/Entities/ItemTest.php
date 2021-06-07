@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Click4Web\DeclaracaoConteudo\Entities\Item;
+use Fontebasso\Correios\DeclaracaoConteudo\Entities\Item;
 
 final class ItemTest extends TestCase
 {

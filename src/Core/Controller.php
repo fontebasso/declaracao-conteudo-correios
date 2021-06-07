@@ -1,5 +1,5 @@
 <?php
-namespace Click4Web\DeclaracaoConteudo\Core;
+namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
 
 class Controller
 {

@@ -1,17 +1,17 @@
 <?php
-namespace Click4Web\DeclaracaoConteudo;
+namespace Fontebasso\Correios\DeclaracaoConteudo;
 
-use Click4Web\DeclaracaoConteudo\Core\Controller;
-use Click4Web\DeclaracaoConteudo\Interfaces\ItemBagInterface;
-use Click4Web\DeclaracaoConteudo\Interfaces\PessoaInterface;
+use Fontebasso\Correios\DeclaracaoConteudo\Core\Controller;
+use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\ItemBagInterface;
+use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\PessoaInterface;
 
 /**
  * Class DeclaracaoConteudo
  *
  * Declaração de Conteúdo para encomendas enviadas via Correios
  *
- * @package  Click4Web\DeclaracaoConteudo
- * @author   fontebasso <sfdsilva@fontesoft.com>
+ * @package  Fontebasso\Correios\DeclaracaoConteudo
+ * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License
  */
 class DeclaracaoConteudo extends Controller

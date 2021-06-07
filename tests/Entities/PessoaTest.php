@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Click4Web\DeclaracaoConteudo\Entities\Pessoa;
+use Fontebasso\Correios\DeclaracaoConteudo\Entities\Pessoa;
 
 final class PessoaTest extends TestCase
 {

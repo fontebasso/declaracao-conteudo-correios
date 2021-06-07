@@ -1,12 +1,12 @@
 <?php
-namespace Click4Web\DeclaracaoConteudo\Interfaces;
+namespace Fontebasso\Correios\DeclaracaoConteudo\Interfaces;
 
 /**
  * Interface ItemBagInterface
  *
- * @package Click4Web\DeclaracaoConteudo
+ * @package Fontebasso\Correios\DeclaracaoConteudo
  * @subpackage Interfaces
- * @author   fontebasso <sfdsilva@fontesoft.com>
+ * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License
  */
 interface ItemBagInterface

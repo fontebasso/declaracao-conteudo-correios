@@ -1,5 +1,5 @@
 {
-  "name": "click4web/declaracao-conteudo-correios",
+  "name": "fontebasso/declaracao-conteudo-correios",
   "description": "Gerador de Declara\u00E7\u00E3o de Conte\u00FAdo para postagem nos Correios",
   "keywords": [
     "declaração de conteúdo",
@@ -9,15 +9,12 @@
   "authors": [
     {
       "name": "Samuel Fontebasso",
-      "email": "sfdsilva@fontesoft.com"
+      "email": "samuel.txd@gmail.com"
     }
   ],
-  "support": {
-    "email": "support@click4web.com.br"
-  },
   "autoload": {
     "psr-4": {
-      "Click4Web\\DeclaracaoConteudo\\": "src/"
+      "Fontebasso\\Correios\\DeclaracaoConteudo\\": "src/"
     }
   },
   "require": {

@@ -1,12 +1,12 @@
 <?php
-namespace Click4Web\DeclaracaoConteudo\Core;
+namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
 
 /**
  * Class Entity
  *
- * @package  Click4Web\DeclaracaoConteudo
+ * @package  Fontebasso\Correios\DeclaracaoConteudo
  * @subpackage Core
- * @author   fontebasso <sfdsilva@fontesoft.com>
+ * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License
  */
 class Entity

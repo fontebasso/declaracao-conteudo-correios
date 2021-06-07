@@ -2,14 +2,14 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Click4Web\DeclaracaoConteudo\Core\ItemBag;
-use Click4Web\DeclaracaoConteudo\Entities\Item;
+use Fontebasso\Correios\DeclaracaoConteudo\Core\ItemBag;
+use Fontebasso\Correios\DeclaracaoConteudo\Entities\Item;
 
 final class ItemBagTest extends TestCase
 {
     public function testDefinirItensPorArray()
     {
-        $itens = new \Click4Web\DeclaracaoConteudo\Core\ItemBag([
+        $itens = new \Fontebasso\Correios\DeclaracaoConteudo\Core\ItemBag([
             [
                 'descricao' => 'Livro - 8Ps do Marketing Digital',
                 'quantidade' => 1,
@@ -59,7 +59,7 @@ final class ItemBagTest extends TestCase
 
     public function testAdicionarItensPorArrayDeObjetosItem()
     {
-        $itens = new \Click4Web\DeclaracaoConteudo\Core\ItemBag([
+        $itens = new \Fontebasso\Correios\DeclaracaoConteudo\Core\ItemBag([
             new Item([
                 'descricao' => 'Livro - Super Apresentações',
                 'quantidade' => 1,
