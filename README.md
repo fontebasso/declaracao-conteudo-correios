@@ -19,12 +19,12 @@ Criando um remetente:
 
 ```php
 $remetente = new Fontebasso\Correios\DeclaracaoConteudo\Entities\Pessoa([
-    'nome' => 'Click 4 Web - Marketing',
-    'doc' => '12.398.650/0001-16',
-    'endereco' => 'Rua Mandaguari, 400 - Vila Curuça',
-    'cidade' => 'Santo André',
-    'estado' => 'SP',
-    'cep' => '09290-660'
+    'nome' => 'B2W - Companhia Digita',
+    'doc' => '00.776.574/0006-60',
+    'endereco' => 'Rua Sacadura Cabral, 102',
+    'cidade' => 'Rio de Janeiro',
+    'estado' => 'RJ',
+    'cep' => '20081-902'
 ]);
 ```
 
@@ -32,12 +32,12 @@ Criando um destinatário. É o mesmo objeto de remetente apenas mudei a forma de
 
 ```php
 $destinatario = new Fontebasso\Correios\DeclaracaoConteudo\Entities\Pessoa();
-$destinatario->setNome('TagCool')
-    ->setDoc('21.814.544/0001-67')
-    ->setEndereco('Rua Albuquerque Lins, 128 - Jardim Paulista')
-    ->setCidade('Ribeirão Preto')
+$destinatario->setNome('Jhon Doe')
+    ->setDoc('000.000.000-00')
+    ->setEndereco('Av. Paulista, 000 - Bela Vista')
+    ->setCidade('São Paulo')
     ->setEstado('SP')
-    ->setCep('14090-010');
+    ->setCep('01310-100');
 ```
 
 Criando uma mochila de itens:
@@ -45,14 +45,14 @@ Criando uma mochila de itens:
 ```php
 $itens = new \Fontebasso\Correios\DeclaracaoConteudo\Core\ItemBag([
     [
-        'descricao' => 'Livro - 8Ps do Marketing Digital',
+        'descricao' => 'Smartphone Motorola Moto G 5G 128GB',
         'quantidade' => 1,
-        'peso' => 0.733
+        'peso' => 0.212
     ],
     [
-        'descricao' => 'Livro - Super Apresentações',
-        'quantidade' => 1,
-        'peso' => 0.397
+        'descricao' => 'Caixa Bombom Especialidades 251g',
+        'quantidade' => 2,
+        'peso' => 0.251
     ],
 ]);
 ```
@@ -64,20 +64,12 @@ $declaracao = new \Fontebasso\Correios\DeclaracaoConteudo\DeclaracaoConteudo(
     $remetente,
     $destinatario,
     $itens,
-    219.98 // Valor Total (R$)
+    2018.97 // Valor Total (R$)
 );
 
 echo $declaracao->imprimirHtml();
 ```
 
-## Contribuindo
-
-1. Faça o _fork_ do projeto (<https://github.com/fontebasso/declaracao-conteudo-correios/fork>)
-2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
-3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
-4. _Push_ (`git push origin feature/fooBar`)
-5. Crie um novo _Pull Request_
-
 ## Licença
 
-Esta biblioteca é um software open-source licenciado sob a licença MIT.
+The MIT License (MIT). Veja o [arquivo de licença](LICENSE) para mais informações.
