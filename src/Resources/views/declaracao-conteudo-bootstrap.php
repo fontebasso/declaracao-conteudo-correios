@@ -1,4 +1,19 @@
-<?php // phpcs:ignoreFile -- this is not a core file ?>
+<?php 
+    $months = [
+        1 => 'Janeiro',
+        'Fevereiro',
+        'Março',
+        'Abril',
+        'Maio',
+        'Junho',
+        'Julho',
+        'Agosto',
+        'Setembro',
+        'Outubro',
+        'Novembro',
+        'Dezembro',
+    ];
+?>
 <!doctype html>
 <html lang="pt-br">
     <head>
@@ -112,13 +127,13 @@
                                                 <p class="m-0 text-center" style="border-bottom: 1px solid #000;float:left;width:95%"><?php echo $remetente->getCidade(); ?></p>,
                                             </div>
                                             <div class="col-1 p-0">
-                                                <p class="m-0 text-center" style="border-bottom: 1px solid #000;float:left;width:65%"><?php echo strftime('%d'); ?></p> de
+                                                <p class="m-0 text-center" style="border-bottom: 1px solid #000;float:left;width:65%"><?php echo date('d'); ?></p> de
                                             </div>
                                             <div class="col-2 p-0">
-                                                <p class="m-0 text-center" style="border-bottom: 1px solid #000;float:left;width:75%;"><?php echo strftime('%B'); ?></p> de
+                                                <p class="m-0 text-center" style="border-bottom: 1px solid #000;float:left;width:75%;"><?php echo $months[date('n')]; ?></p> de
                                             </div>
                                             <div class="col-1 p-0">
-                                                <p class="m-0 text-center" style="border-bottom: 1px solid #000;"><?php echo strftime('%Y'); ?></p>
+                                                <p class="m-0 text-center" style="border-bottom: 1px solid #000;"><?php echo date('Y'); ?></p>
                                             </div>
                                             <div class="col-5">
                                                 <p class="m-0" style="border-bottom: 1px solid #000;">&nbsp;</p>
