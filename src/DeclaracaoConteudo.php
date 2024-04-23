@@ -1,16 +1,16 @@
 <?php
-namespace Fontebasso\Correios\DeclaracaoConteudo;
+namespace JeffersonCamargo\Correios\DeclaracaoConteudo;
 
-use Fontebasso\Correios\DeclaracaoConteudo\Core\Controller;
-use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\ItemBagInterface;
-use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\PessoaInterface;
+use JeffersonCamargo\Correios\DeclaracaoConteudo\Core\Controller;
+use JeffersonCamargo\Correios\DeclaracaoConteudo\Interfaces\ItemBagInterface;
+use JeffersonCamargo\Correios\DeclaracaoConteudo\Interfaces\PessoaInterface;
 
 /**
  * Class DeclaracaoConteudo
  *
  * Declaração de Conteúdo para encomendas enviadas via Correios
  *
- * @package  Fontebasso\Correios\DeclaracaoConteudo
+ * @package  JeffersonCamargo\Correios\DeclaracaoConteudo
  * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License
  */

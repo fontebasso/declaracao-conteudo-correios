@@ -1,10 +1,10 @@
 <?php
-namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
+namespace JeffersonCamargo\Correios\DeclaracaoConteudo\Core;
 
 /**
  * Class Entity
  *
- * @package  Fontebasso\Correios\DeclaracaoConteudo
+ * @package  JeffersonCamargo\Correios\DeclaracaoConteudo
  * @subpackage Core
  * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License

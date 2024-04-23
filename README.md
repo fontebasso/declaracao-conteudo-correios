@@ -18,7 +18,7 @@
 Criando um remetente:
 
 ```php
-$remetente = new Fontebasso\Correios\DeclaracaoConteudo\Entities\Pessoa([
+$remetente = new JeffersonCamargo\Correios\DeclaracaoConteudo\Entities\Pessoa([
     'nome' => 'B2W - Companhia Digita',
     'doc' => '00.776.574/0006-60',
     'endereco' => 'Rua Sacadura Cabral, 102',
@@ -31,7 +31,7 @@ $remetente = new Fontebasso\Correios\DeclaracaoConteudo\Entities\Pessoa([
 Criando um destinatário. É o mesmo objeto de remetente apenas mudei a forma de definir os atributos:
 
 ```php
-$destinatario = new Fontebasso\Correios\DeclaracaoConteudo\Entities\Pessoa();
+$destinatario = new JeffersonCamargo\Correios\DeclaracaoConteudo\Entities\Pessoa();
 $destinatario->setNome('Jhon Doe')
     ->setDoc('000.000.000-00')
     ->setEndereco('Av. Paulista, 000 - Bela Vista')
@@ -43,7 +43,7 @@ $destinatario->setNome('Jhon Doe')
 Criando uma mochila de itens:
  
 ```php
-$itens = new \Fontebasso\Correios\DeclaracaoConteudo\Core\ItemBag([
+$itens = new \JeffersonCamargo\Correios\DeclaracaoConteudo\Core\ItemBag([
     [
         'descricao' => 'Smartphone Motorola Moto G 5G 128GB',
         'quantidade' => 1,
@@ -60,7 +60,7 @@ $itens = new \Fontebasso\Correios\DeclaracaoConteudo\Core\ItemBag([
 Exibindo a declaração de conteúdo:
 
 ```php
-$declaracao = new \Fontebasso\Correios\DeclaracaoConteudo\DeclaracaoConteudo(
+$declaracao = new \JeffersonCamargo\Correios\DeclaracaoConteudo\DeclaracaoConteudo(
     $remetente,
     $destinatario,
     $itens,

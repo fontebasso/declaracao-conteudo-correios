@@ -1,13 +1,13 @@
 <?php
-namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
+namespace JeffersonCamargo\Correios\DeclaracaoConteudo\Core;
 
-use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\ItemBagInterface;
-use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\ItemInterface;
+use JeffersonCamargo\Correios\DeclaracaoConteudo\Interfaces\ItemBagInterface;
+use JeffersonCamargo\Correios\DeclaracaoConteudo\Interfaces\ItemInterface;
 
 /**
  * Class ItemBag
  *
- * @package  Fontebasso\Correios\DeclaracaoConteudo
+ * @package  JeffersonCamargo\Correios\DeclaracaoConteudo
  * @subpackage Core
  * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License
@@ -18,7 +18,7 @@ class ItemBag implements ItemBagInterface
 
     public function __construct(
         array $itens = [],
-        $classItem = '\\Fontebasso\\Correios\\DeclaracaoConteudo\\Entities\\Item'
+        $classItem = '\\JeffersonCamargo\\Correios\\DeclaracaoConteudo\\Entities\\Item'
     ) {
         foreach ($itens as $item) {
             if ($item instanceof $classItem) {

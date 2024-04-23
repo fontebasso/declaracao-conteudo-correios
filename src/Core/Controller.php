@@ -1,5 +1,5 @@
 <?php
-namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
+namespace JeffersonCamargo\Correios\DeclaracaoConteudo\Core;
 
 class Controller
 {

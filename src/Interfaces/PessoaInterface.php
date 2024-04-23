@@ -1,10 +1,10 @@
 <?php
-namespace Fontebasso\Correios\DeclaracaoConteudo\Interfaces;
+namespace JeffersonCamargo\Correios\DeclaracaoConteudo\Interfaces;
 
 /**
  * Interface PessoaInterface
  *
- * @package Fontebasso\Correios\DeclaracaoConteudo
+ * @package JeffersonCamargo\Correios\DeclaracaoConteudo
  * @subpackage Interfaces
  * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License

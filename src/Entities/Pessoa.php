@@ -1,13 +1,13 @@
 <?php
-namespace Fontebasso\Correios\DeclaracaoConteudo\Entities;
+namespace JeffersonCamargo\Correios\DeclaracaoConteudo\Entities;
 
-use Fontebasso\Correios\DeclaracaoConteudo\Core\Entity;
-use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\PessoaInterface;
+use JeffersonCamargo\Correios\DeclaracaoConteudo\Core\Entity;
+use JeffersonCamargo\Correios\DeclaracaoConteudo\Interfaces\PessoaInterface;
 
 /**
  * Class Pessoa
  *
- * @package Fontebasso\Correios\DeclaracaoConteudo
+ * @package JeffersonCamargo\Correios\DeclaracaoConteudo
  * @subpackage Entities
  * @author   fontebasso <samuel.txd@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.html MIT License
