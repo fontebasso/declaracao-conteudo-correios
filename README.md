@@ -14,7 +14,7 @@
 - Suporte a PHP 8.2, 8.3 e 8.4
 - Compatível com PSR-12
 - Uso do Carbon para manipulação de datas
-- Testes automatizados com PHPUnit 12
+- Testes automatizados com PHPUnit 11
 - Geração de declaração em HTML para impressão direta
 
 ## Requisitos
