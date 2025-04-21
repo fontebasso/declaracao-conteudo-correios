@@ -1,6 +1,7 @@
 {
   "name": "fontebasso/declaracao-conteudo-correios",
   "description": "Gerador de Declara\u00E7\u00E3o de Conte\u00FAdo para postagem nos Correios",
+  "abandoned": "fontebasso/declaracao-conteudo-correios",
   "keywords": [
     "declaração de conteúdo",
     "correios"

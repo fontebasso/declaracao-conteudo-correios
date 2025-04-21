@@ -1,5 +1,8 @@
 # Declaração de Conteúdo Correios
 
+> ⚠️ **Versão descontinuada:** a versão 1.x não é mais mantida nem receberá atualizações.
+> Recomendamos atualizar para a versão `^2.0` com suporte ao PHP 8.2 ou superior.
+
 **Gerador de declaração de conteúdo para postagem nos Correios**
 
 [![Build Status](https://travis-ci.com/fontebasso/declaracao-conteudo-correios.svg?branch=main)](https://travis-ci.com/fontebasso/declaracao-conteudo-correios)
