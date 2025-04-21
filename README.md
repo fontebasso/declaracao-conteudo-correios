@@ -3,8 +3,8 @@
 **Gerador de declaração de conteúdo para postagem nos Correios**
 
 [![tests](https://github.com/fontebasso/declaracao-conteudo-correios/actions/workflows/tests.yml/badge.svg)](https://github.com/fontebasso/declaracao-conteudo-correios/actions/workflows/tests.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/3c9b244202e9842607fe/maintainability)](https://codeclimate.com/github/fontebasso/declaracao-conteudo-correios/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/3c9b244202e9842607fe/test_coverage)](https://codeclimate.com/github/fontebasso/declaracao-conteudo-correios/test_coverage)
+[![Maintainability](https://qlty.sh/badges/2ae33bc0-ec2b-4988-8005-3a30b66d2b83/maintainability.svg)](https://qlty.sh/gh/fontebasso/projects/declaracao-conteudo-correios)
+[![Code Coverage](https://qlty.sh/badges/2ae33bc0-ec2b-4988-8005-3a30b66d2b83/test_coverage.svg)](https://qlty.sh/gh/fontebasso/projects/declaracao-conteudo-correios)
 [![Latest Stable Version](https://poser.pugx.org/fontebasso/declaracao-conteudo-correios/v/stable)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
 [![Total Downloads](http://poser.pugx.org/fontebasso/declaracao-conteudo-correios/downloads)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
 [![License](https://poser.pugx.org/fontebasso/declaracao-conteudo-correios/license)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
