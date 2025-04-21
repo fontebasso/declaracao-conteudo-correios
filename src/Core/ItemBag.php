@@ -1,4 +1,5 @@
 <?php
+
 namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
 
 use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\ItemBagInterface;

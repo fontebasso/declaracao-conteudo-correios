@@ -1,4 +1,5 @@
 <?php
+
 namespace Fontebasso\Correios\DeclaracaoConteudo;
 
 use Fontebasso\Correios\DeclaracaoConteudo\Core\Controller;

@@ -1,4 +1,5 @@
 <?php
+
 namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
 
 class Controller
@@ -9,7 +10,7 @@ class Controller
         extract($vars);
         $ds = DIRECTORY_SEPARATOR;
         ob_start();
-        include __DIR__ . $ds . '..' . $ds . 'Resources'. $ds .'views' . $ds . $name . '.php';
+        include __DIR__ . $ds . '..' . $ds . 'Resources' . $ds . 'views' . $ds . $name . '.php';
         return ob_get_clean();
     }
 }

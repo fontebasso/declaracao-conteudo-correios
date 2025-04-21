@@ -2,12 +2,25 @@
 
 **Gerador de declaração de conteúdo para postagem nos Correios**
 
-[![Build Status](https://travis-ci.com/fontebasso/declaracao-conteudo-correios.svg?branch=main)](https://travis-ci.com/fontebasso/declaracao-conteudo-correios)
+[![Build Status](https://app.travis-ci.com/fontebasso/declaracao-conteudo-correios.svg?token=WL2vZEWx8gK4oqGozjvi&branch=main)](https://app.travis-ci.com/fontebasso/declaracao-conteudo-correios)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3c9b244202e9842607fe/maintainability)](https://codeclimate.com/github/fontebasso/declaracao-conteudo-correios/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/3c9b244202e9842607fe/test_coverage)](https://codeclimate.com/github/fontebasso/declaracao-conteudo-correios/test_coverage)
 [![Latest Stable Version](https://poser.pugx.org/fontebasso/declaracao-conteudo-correios/v/stable)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
-[![Latest Unstable Version](https://poser.pugx.org/fontebasso/declaracao-conteudo-correios/v/unstable)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
+[![Total Downloads](http://poser.pugx.org/fontebasso/declaracao-conteudo-correios/downloads)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
 [![License](https://poser.pugx.org/fontebasso/declaracao-conteudo-correios/license)](https://packagist.org/packages/fontebasso/declaracao-conteudo-correios)
+
+## Principais recursos
+
+- Suporte a PHP 8.2, 8.3 e 8.4
+- Compatível com PSR-12
+- Uso do Carbon para manipulação de datas
+- Testes automatizados com PHPUnit 12
+- Geração de declaração em HTML para impressão direta
+
+## Requisitos
+
+- PHP 8.2 ou superior
+- Composer v2
 
 ## Instalação
 
@@ -72,4 +85,4 @@ echo $declaracao->imprimirHtml();
 
 ## Licença
 
-The MIT License (MIT). Veja o [arquivo de licença](LICENSE) para mais informações.
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.

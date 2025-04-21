@@ -1,4 +1,5 @@
 <?php
+
 namespace Fontebasso\Correios\DeclaracaoConteudo\Entities;
 
 use Fontebasso\Correios\DeclaracaoConteudo\Core\Entity;
