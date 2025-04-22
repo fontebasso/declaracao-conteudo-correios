@@ -4,46 +4,43 @@ namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
 
 use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\ItemBagInterface;
 use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\ItemInterface;
+use InvalidArgumentException;
 
-/**
- * Class ItemBag
- *
- * @package  Fontebasso\Correios\DeclaracaoConteudo
- * @subpackage Core
- * @author   fontebasso <samuel.txd@gmail.com>
- * @license  http://www.opensource.org/licenses/mit-license.html MIT License
- */
 class ItemBag implements ItemBagInterface
 {
-    private $itens = [];
+    /**
+     * @var array<ItemInterface> $items
+     */
+    private array $items = [];
 
+    /**
+     * @param array<ItemInterface> $items
+     * @param string $classItem
+     */
     public function __construct(
-        array $itens = [],
-        $classItem = '\\Fontebasso\\Correios\\DeclaracaoConteudo\\Entities\\Item'
+        array $items = [],
+        string $classItem = '\\Fontebasso\\Correios\\DeclaracaoConteudo\\Entities\\Item'
     ) {
-        foreach ($itens as $item) {
-            if ($item instanceof $classItem) {
-                $this->itens[] = $item;
-            } else {
-                $this->itens[] = new $classItem($item);
+        foreach ($items as $item) {
+            if (!$item instanceof $classItem) {
+                if (!class_exists($classItem) && !is_subclass_of($classItem, ItemInterface::class)) {
+                    throw new InvalidArgumentException("Class $classItem does not exist or is not a subclass of ItemInterface");
+                }
+                /** @var ItemInterface $item */
+                $item = new $classItem($item);
             }
+            $this->items[] = $item;
         }
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function getItens(): array
+    public function getItems(): array
     {
-        return $this->itens;
+        return $this->items;
     }
 
-    /**
-     * @inheritDoc
-     */
     public function add(ItemInterface $item): ItemBagInterface
     {
-        $this->itens[] = $item;
+        $this->items[] = $item;
         return $this;
     }
 }

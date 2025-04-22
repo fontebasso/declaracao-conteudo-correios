@@ -2,22 +2,12 @@
 
 namespace Fontebasso\Correios\DeclaracaoConteudo\Core;
 
-/**
- * Class Entity
- *
- * @package  Fontebasso\Correios\DeclaracaoConteudo
- * @subpackage Core
- * @author   fontebasso <samuel.txd@gmail.com>
- * @license  http://www.opensource.org/licenses/mit-license.html MIT License
- */
 class Entity
 {
     /**
-     * Entity constructor.
-     *
-     * @param array $params Lista de atributos da Entidade
+     * @param array<string, mixed> $params
      */
-    public function __construct($params = [])
+    public function __construct(array $params = [])
     {
         foreach ($params as $param => $value) {
             if (property_exists($this, $param)) {

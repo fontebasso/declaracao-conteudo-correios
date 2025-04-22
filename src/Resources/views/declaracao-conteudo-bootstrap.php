@@ -81,7 +81,7 @@ Carbon::setLocale('pt_BR');
                             </tr>
                         </thead>
                         <tbody>
-                            <?php foreach ($itens->getItens() as $item) : ?>
+                            <?php foreach ($items->getItems() as $item) : ?>
                                 <tr>
                                     <td class="text-center"><?php echo $item->getDescricao(); ?></td>
                                     <td class="text-center"><?php echo (string)$item->getQuantidade(); ?></td>

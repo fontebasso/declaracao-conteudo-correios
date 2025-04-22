@@ -5,149 +5,78 @@ namespace Fontebasso\Correios\DeclaracaoConteudo\Entities;
 use Fontebasso\Correios\DeclaracaoConteudo\Core\Entity;
 use Fontebasso\Correios\DeclaracaoConteudo\Interfaces\PessoaInterface;
 
-/**
- * Class Pessoa
- *
- * @package Fontebasso\Correios\DeclaracaoConteudo
- * @subpackage Entities
- * @author   fontebasso <samuel.txd@gmail.com>
- * @license  http://www.opensource.org/licenses/mit-license.html MIT License
- */
 class Pessoa extends Entity implements PessoaInterface
 {
-    /**
-     * @var string $nome Nome
-     */
-    protected $nome;
+    protected string $nome;
 
-    /**
-     * @var string CPF/CNPJ
-     */
-    protected $doc;
+    protected string $doc;
 
-    /**
-     * @var string $endereco Endereço (Logradouro, número, bairro e complemento(
-     */
-    protected $endereco;
-    protected $cidade;
-    protected $estado;
-    protected $cep;
+    protected string $endereco;
+    protected string $cidade;
+    protected string $estado;
+    protected string $cep;
 
-    /**
-     * Define o nome da pessoa
-     *
-     * @param  string $nome Nome da pessoa
-     * @return Pessoa
-     */
-    public function setNome($nome): Pessoa
+    public function setNome(string $nome): Pessoa
     {
         $this->nome = $nome;
         return $this;
     }
 
-    /**
-     * Define o documento (CPF/CNPJ) da pessoa
-     *
-     * @param  string $doc CPF/CNPJ
-     * @return Pessoa
-     */
-    public function setDoc($doc): Pessoa
+    public function setDoc(string $doc): Pessoa
     {
         $this->doc = $doc;
         return $this;
     }
 
-    /**
-     * Define o endereço da pessoa
-     *
-     * @param  string $endereco Endereço (Logradouro, Número, Bairro e Complemento)
-     * @return Pessoa
-     */
-    public function setEndereco($endereco): Pessoa
+    public function setEndereco(string $endereco): Pessoa
     {
         $this->endereco = $endereco;
         return $this;
     }
 
-    /**
-     * Define a Cidade da pessoa
-     *
-     * @param  string $cidade Cidade
-     * @return Pessoa
-     */
-    public function setCidade($cidade): Pessoa
+    public function setCidade(string $cidade): Pessoa
     {
         $this->cidade = $cidade;
         return $this;
     }
 
-    /**
-     * Define o Estado da pessoa
-     *
-     * @param  string $estado Estado
-     * @return Pessoa
-     */
-    public function setEstado($estado): Pessoa
+    public function setEstado(string $estado): Pessoa
     {
         $this->estado = $estado;
         return $this;
     }
 
-    /**
-     * Define o CEP da pessoa
-     *
-     * @param  string $cep CEP
-     * @return Pessoa
-     */
-    public function setCep($cep): Pessoa
+    public function setCep(string $cep): Pessoa
     {
         $this->cep = $cep;
         return $this;
     }
 
-    /**
-     * @inheritDoc
-     */
     public function getNome(): string
     {
         return $this->nome;
     }
 
-    /**
-     * @inheritDoc
-     */
     public function getDoc(): string
     {
         return $this->doc;
     }
 
-    /**
-     * @inheritDoc
-     */
     public function getEndereco(): string
     {
         return $this->endereco;
     }
 
-    /**
-     * @inheritDoc
-     */
     public function getCep(): string
     {
         return $this->cep;
     }
 
-    /**
-     * @inheritDoc
-     */
     public function getCidade(): string
     {
         return $this->cidade;
     }
 
-    /**
-     * @inheritDoc
-     */
     public function getEstado(): string
     {
         return $this->estado;

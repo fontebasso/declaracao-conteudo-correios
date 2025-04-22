@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: composer install --no-interaction --prefer-dist --no-progress
 
+      - name: Run PHPStan
+        run: vendor/bin/phpstan analyse --configuration=phpstan.neon.dist
+
       - name: Run PHPCS (PSR-12)
         run: vendor/bin/phpcs --standard=PSR12 src
 
