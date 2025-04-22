@@ -14,7 +14,7 @@ class ItemBag implements ItemBagInterface
     private array $items = [];
 
     /**
-     * @param array<ItemInterface> $items
+     * @param array<ItemInterface|array<string, mixed>> $items
      * @param string $classItem
      */
     public function __construct(
