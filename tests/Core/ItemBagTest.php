@@ -33,7 +33,7 @@ final class ItemBagTest extends TestCase
                 'quantidade' => 1,
                 'peso' => 0.397
             ])
-        ], $itens->getItens(), "\$canonicalize = true", $delta = 0.0, $maxDepth = 10, $canonicalize = true);
+        ], $itens->getItems(), "\$canonicalize = true", $delta = 0.0, $maxDepth = 10, $canonicalize = true);
     }
 
     public function testAdicionarItem()
@@ -54,7 +54,7 @@ final class ItemBagTest extends TestCase
                 'quantidade' => 1,
                 'peso' => 0.733
             ]),
-        ], $itens->getItens());
+        ], $itens->getItems());
     }
 
     public function testAdicionarItensPorArrayDeObjetosItem()
@@ -73,6 +73,6 @@ final class ItemBagTest extends TestCase
                 'quantidade' => 1,
                 'peso' => 0.397
             ])
-        ], $itens->getItens(), "\$canonicalize = true", $delta = 0.0, $maxDepth = 10, $canonicalize = true);
+        ], $itens->getItems(), "\$canonicalize = true", $delta = 0.0, $maxDepth = 10, $canonicalize = true);
     }
 }
