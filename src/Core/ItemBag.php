@@ -24,7 +24,9 @@ class ItemBag implements ItemBagInterface
         foreach ($items as $item) {
             if (!$item instanceof $classItem) {
                 if (!class_exists($classItem) && !is_subclass_of($classItem, ItemInterface::class)) {
-                    throw new InvalidArgumentException("Class $classItem does not exist or is not a subclass of ItemInterface");
+                    throw new InvalidArgumentException(
+                        "Class $classItem does not exist or is not a subclass of ItemInterface"
+                    );
                 }
                 /** @var ItemInterface $item */
                 $item = new $classItem($item);
